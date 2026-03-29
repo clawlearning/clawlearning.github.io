@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://clawlearning.github.io/sitemap.xml
+Sitemap: https://clawlearning.github.io/ca/sitemap.xml
+Sitemap: https://clawlearning.github.io/es/sitemap.xml
+Sitemap: https://clawlearning.github.io/en/sitemap.xml
+
+# AI Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# LLM content description
+# See /llm.txt and /llms.txt for structured content information

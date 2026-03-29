@@ -1,0 +1,47 @@
+# ClawLearning — Full Content Index
+
+> Free course on AI, LLMs and Agents for beginners. 30 lessons in 3 languages.
+
+## Course Lessons
+
+### Week 1: AI Fundamentals
+- [Lesson 1: What is Artificial Intelligence?](https://clawlearning.github.io/en/posts/lesson-01-what-is-ai/): Defines AI, debunks myths, shows everyday AI applications
+- [Lesson 2: Brief History of AI](https://clawlearning.github.io/en/posts/lesson-02-brief-history-of-ai/): From Turing to ChatGPT, AI winters and summers
+- [Lesson 3: Types of AI](https://clawlearning.github.io/en/posts/lesson-03-types-of-ai/): Machine Learning, Deep Learning, Generative AI explained
+- [Lesson 4: What is an AI Model?](https://clawlearning.github.io/en/posts/lesson-04-what-is-an-ai-model/): Models, training, parameters, open vs closed
+- [Lesson 5: AI in Daily Life](https://clawlearning.github.io/en/posts/lesson-05-ai-in-daily-life/): AI in phones, maps, Netflix, Spotify, banking
+
+### Week 2: Large Language Models
+- [Lesson 6: What is an LLM?](https://clawlearning.github.io/en/posts/lesson-06-what-is-an-llm/): LLM definition, next-word prediction, hallucination
+- [Lesson 7: Tokens and Tokenization](https://clawlearning.github.io/en/posts/lesson-07-tokens-and-tokenization/): What tokens are, pricing, multilingual impact
+- [Lesson 8: The Context Window](https://clawlearning.github.io/en/posts/lesson-08-context-window/): Short-term memory, limits, conversation history
+- [Lesson 9: Current LLM Map](https://clawlearning.github.io/en/posts/lesson-09-current-models/): GPT, Claude, Gemini, LLaMA, Mistral, Chinese models
+- [Lesson 10: Your First Prompt](https://clawlearning.github.io/en/posts/lesson-10-prompt-basics/): Prompt engineering, role/context/instruction/format
+
+### Week 3: Providers, APIs & Access
+- [Lesson 11: What is a Provider?](https://clawlearning.github.io/en/posts/lesson-11-what-is-a-provider/): Direct vs inference providers, pricing
+- [Lesson 12: What is an API?](https://clawlearning.github.io/en/posts/lesson-12-what-is-an-api/): APIs explained, API keys, security
+- [Lesson 13: Free vs Paid](https://clawlearning.github.io/en/posts/lesson-13-free-vs-paid/): Free tiers, local models, smart combinations
+- [Lesson 14: Local Models with Ollama](https://clawlearning.github.io/en/posts/lesson-14-local-models-ollama/): Running LLMs locally, hardware requirements, quantization
+- [Lesson 15: Week 3 Summary](https://clawlearning.github.io/en/posts/lesson-15-week-3-summary/): Complete access map, decision tree, provider comparison
+
+### Week 4: Agents & Automation
+- [Lesson 16: What is an AI Agent?](https://clawlearning.github.io/en/posts/lesson-16-what-is-an-agent/): Chatbot vs agent, tools, MCP
+- [Lesson 17: Agent Anatomy](https://clawlearning.github.io/en/posts/lesson-17-agent-components/): Brain, hands, memory, senses, framework
+- [Lesson 18: Tools and Skills](https://clawlearning.github.io/en/posts/lesson-18-tools-skills/): What tools are, MCP protocol, Clawhub
+- [Lesson 19: Agent Memory](https://clawlearning.github.io/en/posts/lesson-19-agent-memory/): Embeddings, semantic search, RAG
+- [Lesson 20: Agent Frameworks](https://clawlearning.github.io/en/posts/lesson-20-agent-frameworks/): OpenClaw, LangChain, CrewAI, AutoGen
+
+### Week 5: OpenClaw Practical
+- [Lesson 21: What is OpenClaw?](https://clawlearning.github.io/en/posts/lesson-21-what-is-openclaw/): Philosophy, requirements, capabilities
+- [Lesson 22: Installing OpenClaw](https://clawlearning.github.io/en/posts/lesson-22-installing-openclaw/): Step-by-step for Mac, Linux, Windows WSL
+- [Lesson 23: Configuring Model & Provider](https://clawlearning.github.io/en/posts/lesson-23-configuring-model-provider/): openclaw.json, API keys, multiple providers
+- [Lesson 24: Connecting to Telegram](https://clawlearning.github.io/en/posts/lesson-24-telegram-bot/): BotFather, token, allowedUsers, 24/7 operation
+- [Lesson 25: The System Prompt](https://clawlearning.github.io/en/posts/lesson-25-personality-system-prompt/): Identity, behaviour, context, limits
+
+### Week 6: Putting the Agent to Work
+- [Lesson 26: Essential Skills](https://clawlearning.github.io/en/posts/lesson-26-essential-skills/): Web search, file reading, Reddit, Hacker News
+- [Lesson 27: Cron Automations](https://clawlearning.github.io/en/posts/lesson-27-automations-cron/): Scheduled tasks, briefings, token control
+- [Lesson 28: Multiple Agents](https://clawlearning.github.io/en/posts/lesson-28-multiple-agents/): Cost optimization, workspaces, coordination
+- [Lesson 29: Security & Privacy](https://clawlearning.github.io/en/posts/lesson-29-security-privacy/): API key protection, Telegram security, backups
+- [Lesson 30: Next Steps](https://clawlearning.github.io/en/posts/lesson-30-next-steps/): Resources, project ideas, community

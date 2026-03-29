@@ -3,7 +3,7 @@ title: ClawLearning
 theme: PaperMod
 defaultContentLanguage: ca
 defaultContentLanguageInSubdir: true
-enableRobotsTXT: true
+enableRobotsTXT: false
 buildFuture: true
 languages:
   ca:
