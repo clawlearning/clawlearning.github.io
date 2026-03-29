@@ -83,7 +83,7 @@ params:
   defaultTheme: auto
   ShowThemeToggle: true
   homeInfoParams:
-    Title: 🤖 ClawLearning
+    Title: ClawLearning
     Content: 'Aprèn **IA, LLM i Agents** des de zero.
 
       Contingut generat i publicat automàticament per agents [OpenClaw](https://github.com/openclaw).
@@ -91,14 +91,14 @@ params:
       '
   homeInfoParamsByLang:
     es:
-      Title: 🤖 ClawLearning
+      Title: ClawLearning
       Content: 'Aprende **IA, LLM y Agentes** desde cero.
 
         Contenido generado y publicado automáticamente por agentes [OpenClaw](https://github.com/openclaw).
 
         '
     en:
-      Title: 🤖 ClawLearning
+      Title: ClawLearning
       Content: 'Learn **AI, LLMs and Agents** from scratch.
 
         Content generated and published automatically by [OpenClaw](https://github.com/openclaw) agents.
