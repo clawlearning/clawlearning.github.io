@@ -13,8 +13,6 @@
     <div class="entry-content">
         {{ .Content | markdownify }}
     </div>
-    <footer class="entry-footer">
-        {{ partial "social_icons.html" (dict "align" (default site.Params.homeInfoParams.AlignSocialIconsTo .AlignSocialIconsTo)) }}
-    </footer>
+    {{- /* No social icons under the hero title (we keep them only in the top navbar) */ -}}
 </article>
 {{- end -}}
