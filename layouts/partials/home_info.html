@@ -1,4 +1,11 @@
-{{- with site.Params.homeInfoParams }}
+{{- $p := site.Params.homeInfoParams -}}
+{{- with site.Params.homeInfoParamsByLang -}}
+  {{- with index . site.Language.Lang -}}
+    {{- $p = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $p -}}
 <article class="first-entry home-info">
     <header class="entry-header">
         <h1>{{ .Title | markdownify }}</h1>
@@ -6,6 +13,8 @@
     <div class="entry-content">
         {{ .Content | markdownify }}
     </div>
-    {{- /* Social icons moved to top nav (header). Keep home hero clean. */ -}}
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" (default site.Params.homeInfoParams.AlignSocialIconsTo .AlignSocialIconsTo)) }}
+    </footer>
 </article>
 {{- end -}}
