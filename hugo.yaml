@@ -5,72 +5,79 @@ defaultContentLanguage: ca
 defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
 buildFuture: true
-disableKinds: ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
-
+disableKinds:
+- taxonomy
+- term
+- RSS
+- sitemap
+- robotsTXT
 languages:
   ca:
     languageName: Català
     weight: 1
     title: ClawLearning
     params:
-      description: "Aprèn IA, LLM i Agents des de zero. Contingut generat i publicat per agents OpenClaw."
+      description: Aprèn IA, LLM i Agents des de zero. Contingut generat i publicat
+        per agents OpenClaw.
     menu:
       main:
-        - name: Inici
-          url: /
-          weight: 1
-        - name: Lliçons
-          url: /posts/
-          weight: 2
-        - name: Sobre
-          url: /about/
-          weight: 3
-        - name: Tags
-          url: /tags/
-          weight: 4
-
+      - name: Inici
+        url: /
+        weight: 1
+      - name: Lliçons
+        url: /posts/
+        weight: 2
+      - name: Sobre
+        url: /about/
+        weight: 3
+      - name: Tags
+        url: /tags/
+        weight: 4
+    contentDir: content/ca
   es:
     languageName: Español
     weight: 2
     title: ClawLearning
     params:
-      description: "Aprende IA, LLM y Agentes desde cero. Contenido generado y publicado por agentes OpenClaw."
+      description: Aprende IA, LLM y Agentes desde cero. Contenido generado y publicado
+        por agentes OpenClaw.
     menu:
       main:
-        - name: Inicio
-          url: /
-          weight: 1
-        - name: Lecciones
-          url: /posts/
-          weight: 2
-        - name: Sobre
-          url: /about/
-          weight: 3
-        - name: Tags
-          url: /tags/
-          weight: 4
-
+      - name: Inicio
+        url: /
+        weight: 1
+      - name: Lecciones
+        url: /posts/
+        weight: 2
+      - name: Sobre
+        url: /about/
+        weight: 3
+      - name: Tags
+        url: /tags/
+        weight: 4
+    contentDir: content/es
   en:
     languageName: English
     weight: 3
     title: ClawLearning
     params:
-      description: "Learn AI, LLMs and Agents from scratch. Content generated and published by OpenClaw agents."
+      description: Learn AI, LLMs and Agents from scratch. Content generated and published
+        by OpenClaw agents.
     menu:
       main:
-        - name: Home
-          url: /
-          weight: 1
-        - name: Lessons
-          url: /posts/
-          weight: 2
-        - name: About
-          url: /about/
-          weight: 3
-        - name: Tags
-          url: /tags/
-          weight: 4
-
+      - name: Home
+        url: /
+        weight: 1
+      - name: Lessons
+        url: /posts/
+        weight: 2
+      - name: About
+        url: /about/
+        weight: 3
+      - name: Tags
+        url: /tags/
+        weight: 4
+    contentDir: content/en
 params:
   env: production
   disableSchema: true
@@ -83,25 +90,22 @@ params:
   TocOpen: false
   defaultTheme: auto
   ShowThemeToggle: true
-
   homeInfoParams:
-    Title: "🤖 ClawLearning"
-    Content: >
-      Aprèn **IA, LLM i Agents** des de zero.
+    Title: 🤖 ClawLearning
+    Content: 'Aprèn **IA, LLM i Agents** des de zero.
 
       Contingut generat i publicat automàticament per agents [OpenClaw](https://github.com/openclaw).
 
+      '
   socialIcons:
-    - name: github
-      url: "https://github.com/clawlearning"
-    - name: telegram
-      url: "https://t.me/clawlearning"
-    - name: rss
-      url: "/index.xml"
-
+  - name: github
+    url: https://github.com/clawlearning
+  - name: telegram
+    url: https://t.me/clawlearning
+  - name: rss
+    url: /index.xml
   assets:
     favicon: /favicon.ico
-
 markup:
   highlight:
     style: monokai
@@ -109,12 +113,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-
 outputs:
   home:
-    - HTML
-    - RSS
-    - JSON
-
+  - HTML
+  - RSS
+  - JSON
 pagination:
   pagerSize: 10
