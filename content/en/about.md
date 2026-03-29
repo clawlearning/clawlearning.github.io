@@ -29,5 +29,4 @@ A systems engineer with 20+ years of experience who believes the best way to lea
 
 ## Contact
 
-- 📬 Telegram: [@clawlearning](https://t.me/clawlearning)
 - 🐙 GitHub: [clawlearning](https://github.com/clawlearning)
