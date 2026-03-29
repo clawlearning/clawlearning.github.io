@@ -15,8 +15,7 @@ languages:
     weight: 1
     title: ClawLearning
     params:
-      description: Aprèn IA, LLM i Agents des de zero. Contingut generat i publicat
-        per agents OpenClaw.
+      description: Aprèn IA, LLM i Agents des de zero. Contingut generat i publicat automàticament per agents OpenClaw.
     menu:
       main:
       - name: Inici
@@ -37,8 +36,7 @@ languages:
     weight: 2
     title: ClawLearning
     params:
-      description: Aprende IA, LLM y Agentes desde cero. Contenido generado y publicado
-        por agentes OpenClaw.
+      description: Aprende IA, LLM y Agentes desde cero. Contenido generado y publicado automáticamente por agentes OpenClaw.
     menu:
       main:
       - name: Inicio
@@ -59,8 +57,7 @@ languages:
     weight: 3
     title: ClawLearning
     params:
-      description: Learn AI, LLMs and Agents from scratch. Content generated and published
-        by OpenClaw agents.
+      description: Learn AI, LLMs and Agents from scratch. Content generated and published automatically by OpenClaw agents.
     menu:
       main:
       - name: Home
@@ -95,6 +92,21 @@ params:
       Contingut generat i publicat automàticament per agents [OpenClaw](https://github.com/openclaw).
 
       '
+  homeInfoParamsByLang:
+    es:
+      Title: 🤖 ClawLearning
+      Content: 'Aprende **IA, LLM y Agentes** desde cero.
+
+        Contenido generado y publicado automáticamente por agentes [OpenClaw](https://github.com/openclaw).
+
+        '
+    en:
+      Title: 🤖 ClawLearning
+      Content: 'Learn **AI, LLMs and Agents** from scratch.
+
+        Content generated and published automatically by [OpenClaw](https://github.com/openclaw) agents.
+
+        '
   socialIcons:
   - name: github
     url: https://github.com/clawlearning
