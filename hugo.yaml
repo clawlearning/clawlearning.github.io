@@ -4,6 +4,8 @@ theme: PaperMod
 defaultContentLanguage: ca
 defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
+buildFuture: true
+disableKinds: ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
 
 languages:
   ca:
@@ -15,16 +17,16 @@ languages:
     menu:
       main:
         - name: Inici
-          url: /ca/
+          url: /
           weight: 1
         - name: Lliçons
-          url: /ca/posts/
+          url: /posts/
           weight: 2
         - name: Sobre
-          url: /ca/about/
+          url: /about/
           weight: 3
         - name: Tags
-          url: /ca/tags/
+          url: /tags/
           weight: 4
 
   es:
@@ -36,16 +38,16 @@ languages:
     menu:
       main:
         - name: Inicio
-          url: /es/
+          url: /
           weight: 1
         - name: Lecciones
-          url: /es/posts/
+          url: /posts/
           weight: 2
         - name: Sobre
-          url: /es/about/
+          url: /about/
           weight: 3
         - name: Tags
-          url: /es/tags/
+          url: /tags/
           weight: 4
 
   en:
@@ -57,20 +59,21 @@ languages:
     menu:
       main:
         - name: Home
-          url: /en/
+          url: /
           weight: 1
         - name: Lessons
-          url: /en/posts/
+          url: /posts/
           weight: 2
         - name: About
-          url: /en/about/
+          url: /about/
           weight: 3
         - name: Tags
-          url: /en/tags/
+          url: /tags/
           weight: 4
 
 params:
   env: production
+  disableSchema: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
