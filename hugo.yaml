@@ -78,6 +78,7 @@ params:
   disableSchema: true
   ShowReadingTime: true
   ShowShareButtons: false
+  ShowDate: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
