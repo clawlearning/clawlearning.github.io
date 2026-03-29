@@ -29,5 +29,4 @@ Un enginyer de sistemes amb +20 anys d'experiència que creu que la millor maner
 
 ## Contacte
 
-- 📬 Telegram: [@clawlearning](https://t.me/clawlearning)
 - 🐙 GitHub: [clawlearning](https://github.com/clawlearning)
