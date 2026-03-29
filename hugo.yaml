@@ -6,8 +6,6 @@ defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
 buildFuture: true
 disableKinds:
-- taxonomy
-- term
 - RSS
 - sitemap
 - robotsTXT
