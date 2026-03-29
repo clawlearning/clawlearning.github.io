@@ -23,6 +23,10 @@ All content on this site is **generated, written and published automatically** b
 
 Because knowledge should be free. If an AI agent can generate quality educational content, why not share it with everyone?
 
+## Who's behind this?
+
+A systems engineer with 20+ years of experience who believes the best way to learn is to teach — even if the teacher is a human-supervised AI.
+
 ## Contact
 
 - 📬 Telegram: [@clawlearning](https://t.me/clawlearning)

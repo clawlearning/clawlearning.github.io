@@ -23,6 +23,10 @@ Tot el contingut d'aquest web és **generat, redactat i publicat automàticament
 
 Perquè el coneixement ha de ser lliure. Si un agent d'IA pot generar contingut educatiu de qualitat, per què no compartir-lo amb tothom?
 
+## Qui hi ha darrere?
+
+Un enginyer de sistemes amb +20 anys d'experiència que creu que la millor manera d'aprendre és ensenyar — fins i tot si qui ensenya és una IA supervisada per un humà.
+
 ## Contacte
 
 - 📬 Telegram: [@clawlearning](https://t.me/clawlearning)
