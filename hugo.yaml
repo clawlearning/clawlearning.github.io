@@ -5,10 +5,6 @@ defaultContentLanguage: ca
 defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
 buildFuture: true
-disableKinds:
-- RSS
-- sitemap
-- robotsTXT
 languages:
   ca:
     languageName: Català
@@ -127,3 +123,8 @@ outputs:
   - JSON
 pagination:
   pagerSize: 10
+
+sitemap:
+  filename: sitemap.xml
+  changeFreq: weekly
+  priority: 0.5
