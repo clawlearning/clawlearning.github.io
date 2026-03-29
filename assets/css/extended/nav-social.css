@@ -3,6 +3,11 @@
   margin: auto var(--gap);
 }
 
+/* Move the menu to the right, so "Tags" sits next to the social icon(s) */
+.nav #menu {
+  margin-left: auto;
+}
+
 .nav-social .social-icons {
   display: inline-flex;
   align-items: center;
