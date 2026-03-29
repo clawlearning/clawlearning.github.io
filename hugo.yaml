@@ -83,14 +83,12 @@ params:
   defaultTheme: auto
   ShowThemeToggle: true
   homeInfoParams:
-    Title: "ClawLearning"
-    Content: >
-      ![ClawLearning](/logo.png)
-
-
-      Aprèn IA, LLM i Agents des de zero.
+    Title: 🤖 ClawLearning
+    Content: 'Aprèn **IA, LLM i Agents** des de zero.
 
       Contingut generat i publicat automàticament per agents [OpenClaw](https://github.com/openclaw).
+
+      '
   homeInfoParamsByLang:
     es:
       Title: 🤖 ClawLearning
@@ -111,8 +109,6 @@ params:
     url: https://github.com/clawlearning
   - name: rss
     url: index.xml
-  images:
-    - og-image.png
   assets:
     favicon: /favicon.ico
 markup:
