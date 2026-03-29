@@ -1,0 +1,10 @@
+/* Reduce vertical whitespace between the home hero (first-entry) and the first post */
+.first-entry {
+  min-height: unset;
+  margin: var(--gap) 0 var(--gap) 0; /* was 2*gap bottom */
+}
+
+/* Slightly tighter content block */
+.first-entry .entry-content {
+  margin: 10px 0;
+}
