@@ -100,8 +100,6 @@ params:
   socialIcons:
   - name: github
     url: https://github.com/clawlearning
-  - name: telegram
-    url: https://t.me/clawlearning
   - name: rss
     url: /index.xml
   assets:
