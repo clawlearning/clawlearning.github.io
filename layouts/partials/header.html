@@ -59,7 +59,24 @@
                 {{- if (not site.Params.disableLangToggle) }}
                     {{- $lang := .Lang}}
                     {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
-                    {{- with site.Home.Translations }}
+                    {{- $translations := site.Home.Translations }}
+                    {{- if .IsTranslated }}
+                        {{- $translations = .AllTranslations }}
+                    {{- else if and .IsPage (isset .Params "weight") }}
+                        {{- $current := . }}
+                        {{- $translations = slice }}
+                        {{- range hugo.Sites }}
+                            {{- $targetSite := . }}
+                            {{- if ne $targetSite.Language.Lang $current.Lang }}
+                                {{- $match := where $targetSite.RegularPages "Section" $current.Section }}
+                                {{- $match = where $match "Params.weight" $current.Params.weight }}
+                                {{- with index $match 0 }}
+                                    {{- $translations = $translations | append . }}
+                                {{- end }}
+                            {{- end }}
+                        {{- end }}
+                    {{- end }}
+                    {{- with $translations }}
                     <ul class="lang-switch">
                         {{- if $separator }}<li>|</li>{{ end }}
                         {{- range . -}}
