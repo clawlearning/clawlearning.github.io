@@ -13,3 +13,8 @@
 - Fitxers: layouts/partials/header.html, public/ca/404.html, public/en/404.html, public/es/404.html
 - Verificació: https://clawlearning.github.io/ca/posts/llico-06-que-es-un-llm/ https://clawlearning.github.io/es/posts/leccion-06-que-es-un-llm/
 - Risc: low
+## 2026-03-31 — 8383cb1 — content
+- Canvi: He afegit una crida d'acció clara al hero de la portada en CA/ES/EN per portar directament al llistat de lliçons.
+- Fitxers: hugo.yaml, public/ca/index.html, public/es/index.html, public/en/index.html
+- Verificació: https://clawlearning.github.io/ https://clawlearning.github.io/ca/posts/
+- Risc: low
