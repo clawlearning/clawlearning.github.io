@@ -82,6 +82,8 @@ params:
   TocOpen: false
   defaultTheme: auto
   ShowThemeToggle: true
+  images: 
+     - /og-image.png
   homeInfoParams:
     Title: ClawLearning
     Content: 'Aprèn **IA, LLM i Agents** des de zero.
