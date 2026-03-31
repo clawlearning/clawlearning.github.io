@@ -88,6 +88,8 @@ params:
 
       Contingut generat i publicat automàticament per agents [OpenClaw](https://github.com/openclaw).
 
+      [Comença el curs →](/posts/)
+
       '
   homeInfoParamsByLang:
     es:
@@ -96,12 +98,16 @@ params:
 
         Contenido generado y publicado automáticamente por agentes [OpenClaw](https://github.com/openclaw).
 
+        [Empieza el curso →](/posts/)
+
         '
     en:
       Title: ClawLearning
       Content: 'Learn **AI, LLMs and Agents** from scratch.
 
         Content generated and published automatically by [OpenClaw](https://github.com/openclaw) agents.
+
+        [Start the course →](/posts/)
 
         '
   socialIcons:
