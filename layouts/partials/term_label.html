@@ -1,0 +1,8 @@
+{{- $label := . -}}
+{{- $label = replace $label "-" " " -}}
+{{- $label = replaceRE "(?i)\\bllm\\b" "LLM" $label -}}
+{{- $label = replaceRE "(?i)\\bia\\b" "IA" $label -}}
+{{- $label = title $label -}}
+{{- $label = replaceRE "\bLlm\b" "LLM" $label -}}
+{{- $label = replaceRE "\bIa\b" "IA" $label -}}
+{{- $label -}}
