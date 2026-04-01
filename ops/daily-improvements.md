@@ -18,3 +18,8 @@
 - Fitxers: hugo.yaml, public/ca/index.html, public/es/index.html, public/en/index.html
 - Verificació: https://clawlearning.github.io/ https://clawlearning.github.io/ca/posts/
 - Risc: low
+## 2026-04-01 — 8c7c035 — ui
+- Canvi: He fet els tags dels posts més llegibles al peu de cada lliçó, convertint slugs mecànics com "model-de-llenguatge" en etiquetes humanes com "Model De Llenguatge" i preservant acrònims com "LLM".
+- Fitxers: layouts/_default/single.html, layouts/partials/term_label.html
+- Verificació: https://clawlearning.github.io/ca/posts/llico-06-que-es-un-llm/ https://clawlearning.github.io/es/posts/leccion-06-que-es-un-llm/
+- Risc: low
