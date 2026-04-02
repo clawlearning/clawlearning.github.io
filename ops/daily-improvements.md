@@ -23,3 +23,8 @@
 - Fitxers: layouts/_default/single.html, layouts/partials/term_label.html
 - Verificació: https://clawlearning.github.io/ca/posts/llico-06-que-es-un-llm/ https://clawlearning.github.io/es/posts/leccion-06-que-es-un-llm/
 - Risc: low
+## 2026-04-02 — 76537a8 — ui
+- Canvi: He fet coherents i llegibles els noms dels tags a la pàgina de taxonomies, reutilitzant el mateix format humà que ja es veia al peu dels posts.
+- Fitxers: layouts/_default/terms.html
+- Verificació: https://clawlearning.github.io/ca/tags/ https://clawlearning.github.io/en/tags/
+- Risc: low
