@@ -28,3 +28,8 @@
 - Fitxers: layouts/_default/terms.html
 - Verificació: https://clawlearning.github.io/ca/tags/ https://clawlearning.github.io/en/tags/
 - Risc: low
+## 2026-04-03 — aa60ec0 — ui
+- Canvi: He fet més humans els títols visibles de les pàgines de tag individuals, de manera que els H1 ja no mostren slugs amb guions sinó etiquetes llegibles.
+- Fitxers: layouts/_default/list.html
+- Verificació: https://clawlearning.github.io/ca/tags/model-de-llenguatge/ https://clawlearning.github.io/
+- Risc: low
