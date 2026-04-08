@@ -33,3 +33,8 @@
 - Fitxers: layouts/_default/list.html
 - Verificació: https://clawlearning.github.io/ca/tags/model-de-llenguatge/ https://clawlearning.github.io/
 - Risc: low
+## 2026-04-08 — 9c2fb80 — seo
+- Canvi: He humanitzat el títol que veuen les previsualitzacions socials (Open Graph/Twitter) a les pàgines de tags/terms, evitant slugs amb guions i reduint duplicats de meta tags.
+- Fitxers: layouts/partials/extend_head.html, layouts/partials/templates/opengraph.html, layouts/partials/templates/twitter_cards.html
+- Verificació: https://clawlearning.github.io/ca/tags/model-de-llenguatge/
+- Risc: low
