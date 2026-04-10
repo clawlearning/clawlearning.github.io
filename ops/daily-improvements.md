@@ -39,7 +39,7 @@
 - Verificació: https://clawlearning.github.io/ca/tags/model-de-llenguatge/
 - Risc: low
 ## 2026-04-10 — aa34f16 — seo
-- Canvi: He eliminat el bloc hreflang duplicat del nostre extend_head (PaperMod ja el genera) i he deixat només  a la home.
+- Canvi: He eliminat el bloc hreflang duplicat del nostre extend_head (PaperMod ja el genera) i he deixat només "x-default" a la home.
 - Fitxers: layouts/partials/extend_head.html
 - Verificació: https://clawlearning.github.io/ca/
 - Risc: low
