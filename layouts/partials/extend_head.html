@@ -9,12 +9,7 @@
 <link rel="canonical" href="{{ .Permalink }}">
 
 <!-- Hreflang (multilingual SEO) -->
-{{ if .IsTranslated }}
-  {{ range .Translations }}
-    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
-  {{ end }}
-  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
-{{ end }}
+<!-- PaperMod ja emet hreflang per pàgines traduïdes; aquí només afegim x-default a la home. -->
 {{ if .IsHome }}
   <link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}ca/">
 {{ end }}
