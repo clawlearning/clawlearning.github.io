@@ -24,7 +24,18 @@
   <meta name="twitter:title" content="{{ . }}">
 {{- end }}
 
-{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
+{{- $twDesc := (or .Description .Summary site.Params.description) -}}
+{{- if and (eq .Kind "term") (not .Description) (not .Summary) -}}
+  {{- $label := (partial "term_label.html" .Title | plainify) -}}
+  {{- if eq site.Language.Lang "ca" -}}
+    {{- $twDesc = printf "Recull d’articles amb l’etiqueta %s." $label -}}
+  {{- else if eq site.Language.Lang "es" -}}
+    {{- $twDesc = printf "Recopilación de artículos con la etiqueta %s." $label -}}
+  {{- else -}}
+    {{- $twDesc = printf "Collection of articles tagged %s." $label -}}
+  {{- end -}}
+{{- end -}}
+{{- with $twDesc | plainify | htmlUnescape }}
   <meta name="twitter:description" content="{{ trim . "\n\r\t " }}">
 {{- end }}
 
