@@ -43,3 +43,9 @@
 - Fitxers: layouts/partials/extend_head.html
 - Verificació: https://clawlearning.github.io/ca/
 - Risc: low
+
+## 2026-04-13 — 400b569 — seo
+- Canvi: He afegit una descripció per defecte a les meta OG/Twitter de les pàgines de tags (term) quan no tenen description/summary, per millorar previsualitzacions a xarxes.
+- Fitxers: layouts/partials/templates/opengraph.html, layouts/partials/templates/twitter_cards.html
+- Verificació: https://clawlearning.github.io/ca/tags/model-de-llenguatge/
+- Risc: low
