@@ -49,3 +49,9 @@
 - Fitxers: layouts/partials/templates/opengraph.html, layouts/partials/templates/twitter_cards.html
 - Verificació: https://clawlearning.github.io/ca/tags/model-de-llenguatge/
 - Risc: low
+
+## 2026-04-15 — e3660bd — seo
+- Canvi: He tret el rel=canonical duplicat de layouts/partials/extend_head.html (PaperMod ja el genera) per evitar duplicats SEO al <head>.
+- Fitxers: layouts/partials/extend_head.html
+- Verificació: https://clawlearning.github.io/ca/posts/llico-06-que-es-un-llm/
+- Risc: low
